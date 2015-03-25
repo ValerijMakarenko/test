@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - '0.12'
 before_install:
-  - npm install -g bower grunt-cli
+  - npm install -g yo bower grunt-cli gulp
   - bower install
   - grunt build
 install:
